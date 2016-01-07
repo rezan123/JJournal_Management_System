@@ -16,7 +16,7 @@ public class Journal_AdminTest {
 		Scanner in = new Scanner(System.in);
 		heading = in.next("software");
 		String output = in.next("software");
-		assersame(output, "advanced software");
+		assertEquals(output, "advanced software");
 	}}
 
 
